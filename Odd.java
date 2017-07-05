@@ -8,16 +8,14 @@ public class Odd {
 		int flag=0;
 		for(int i=a;i<=b;i++)
 		{
-			if(a%2 !=0)
+			if(i%2 !=0)
 			{
-				flag=1;
+				System.out.println(i);
+			
 			}
 		}
-		if(flag==1)
-			System.out.println()
-		System.out.println("Interval is odd");
-		else
-		System.out.println("Interval is not odd");
-
+		
+			
+		
 }
 }
