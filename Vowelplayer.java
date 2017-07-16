@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.*;
 
 public class Vowelplayer
-{
+
 public static void  main(String args[]) throws IOException
 	
 	{
@@ -19,24 +19,30 @@ public static void  main(String args[]) throws IOException
 		list.add(a.charAt(i));
 		for(int j=0;j<list.size();j++)
 		{
-		if(list.get(j) == 'a' || list.get(j) == 'e' || list.get(j) == 'i' || list.get(j) == 'o' || list.get(j) == 'u')
+		if(list.get(j) == 'a' || list.get(j) == 'e' || list.get(j) == 'i' || list.get(j) == 'o' || list.get(j) == 'u'||  list.get(j) == 'A' || list.get(j) == 'E' || list.get(j) == 'I' || list.get(j) == 'O' || list.get(j) == 'U')
 		{
 		list.remove(list.get(j));
 		}
-     }
+                }
         }          
-           for(int y=0;y<list.size();y++)          
+             
+      for(int y=0;y<list.size();y++)
+          
          {
-         s[y]=String.valueOf(list.get(y));
+             s[y]=String.valueOf(list.get(y));
              System.out.println(s[y]);
          }
         for(int u=list.size()-1;u>=0;u--)
                {
-                temp =temp+s[u];                             
+                temp =temp+s[u];                                
                 
                }
-                  System.out.println(temp);              
+                  System.out.println(temp);
+              
              }
-             }        
+        }        
 
-   
+        
+
+       
+        
