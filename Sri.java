@@ -12,7 +12,7 @@ public class Sri {
     }
     int fact (int y)
     {
-        if(y>=1)
+        if(y>1)
         {
             return y*fact(y-1);
         }
